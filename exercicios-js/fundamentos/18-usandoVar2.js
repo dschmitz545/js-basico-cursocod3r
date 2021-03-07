@@ -1,0 +1,7 @@
+var numero = 1
+{
+    // var tem escopo global e escopo de função
+    var numero = 2
+    console.log('dentro =', numero)
+}
+console.log('fora =', numero)
