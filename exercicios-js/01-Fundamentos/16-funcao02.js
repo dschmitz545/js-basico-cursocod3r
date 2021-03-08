@@ -1,4 +1,5 @@
 // Armazena uma função em uma variavel
+// funcao arrow
 const ImprimirSoma = function (a,b) {
     console.log(a + b)
 }
@@ -6,6 +7,7 @@ const ImprimirSoma = function (a,b) {
 ImprimirSoma(2,5)
 
 //Armazena uma funcao arrow em uma variavel
+//util para quando quer reaproveitar a função
 const soma = (a, b) => {
     return a + b
 }
