@@ -1,3 +1,4 @@
+// factory retorna um novo objeto
 //Factory simples
 function criarProduto(produto, preco, desconto = '5%', ativo = 'não'){
     return {
